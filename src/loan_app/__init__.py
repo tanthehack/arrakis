@@ -377,18 +377,6 @@ def make_payment(user):
         else:
             admin_payments.append([month, payment])
 
-        #     if entry[0] == month:
-        #         entry[1] += payment
-        # else:
-
-        # for i in range(0, len(admin['payments'])):
-        #     if admin['payments'][i][0] == month:
-        #         current_id = i
-
-        # if current_id != 0:
-        #     admin_payments[current_id][1] += payment
-        # else:
-
     save_user(admin)
     user['payments'] = payments
 
