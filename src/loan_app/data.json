@@ -1,0 +1,64 @@
+{
+    "admin": {
+        "current_month": 3,
+        "name": "admin",
+        "payments": [
+            [
+                1,
+                20.0
+            ],
+            [
+                2,
+                2048.0
+            ]
+        ],
+        "type": "admin"
+    },
+    "fum": {
+        "balance": 1170.0,
+        "compound": false,
+        "current_month": 3,
+        "loan": 1000.0,
+        "name": "fum",
+        "payments": [
+            [
+                1,
+                10.0,
+                1040.0
+            ],
+            [
+                1,
+                10.0,
+                1080.0
+            ],
+            [
+                2,
+                10.0,
+                1170.0
+            ],
+            [
+                2,
+                100.0,
+                1120.0
+            ]
+        ],
+        "rate": 0.05,
+        "type": "user"
+    },
+    "tan": {
+        "balance": 9090.0,
+        "compound": true,
+        "current_month": 3,
+        "loan": 9000.0,
+        "name": "tan",
+        "payments": [
+            [
+                2,
+                1938.0,
+                0
+            ]
+        ],
+        "rate": 0.01,
+        "type": "user"
+    }
+}
