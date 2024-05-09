@@ -14,7 +14,7 @@ def main():
 
     queue = initialize_queue(arrival_rate, service_rate, len)
 
-    print("Queue details: \n", queue)
+    print("Queue details: \n", queue['kendalls_notation'])
 
     gui(queue)
 
