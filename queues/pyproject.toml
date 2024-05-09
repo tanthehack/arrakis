@@ -5,7 +5,8 @@ description = "Add your description here"
 authors = [
     { name = "tanthehack", email = "31630356+tanthehack@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
